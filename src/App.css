@@ -1,7 +1,12 @@
 .App {
   text-align: center;
+  
 }
-
+.header{
+  font-size: 3rem;
+  font-weight: bold;
+  padding-left: 5%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +40,72 @@
   to {
     transform: rotate(360deg);
   }
+}
+html{
+  /* background-image: url(https://images.unsplash.com/photo-1511318175804-55a675b337e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80); */
+  height: 98%;
+  /* background-repeat: no-repeat; */
+  /* background-size: 100%; */
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%; */
+  /* background-position: center; */
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  /* background-color: black;
+  border-left: 8px solid #fc3d21;
+  border-top: 8px solid #fc3d21;
+  border-bottom:8px solid #0b3d91;
+  border-right:8px solid #0b3d91; */
+}
+@media( max-width:1000px ){
+  html{background-size: 250%;}
+}
+.SpaceImg{
+
+ background-color:rgba(247, 250, 249, 1);
+  border-radius: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #FC3D21;
+  padding-bottom: 5%;
+  box-shadow: 10px 15px 55px midnightblue;
+  display: flex;
+  margin-bottom: 4%;
+ }
+ .nasapicture {
+  width: 40%; 
+  height: 100%; 
+  border-radius: 15px;
+  margin-top: 4%;
+  margin-left: 2%;
+}
+.context{
+  margin-top: 4%;
+  
+}
+p{
+  margin-right: 5%;
+  margin-left:5%;
+  font-size: 1rem;
+}
+footer{
+  padding-top: 5%;
+}
+header{
+  /* padding-left: 10%; */
+  background-image: url(https://images.unsplash.com/photo-1534262743809-b8ed8def71a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80);
+  background-position-y: 30%;
+  background-position-x: 50%;
+  display: flex;
+  font-size: 4rem;
+  color: white;
+}
+footer{
+  
+  padding-top: 1%;
+  background-image: url(https://images.unsplash.com/photo-1534262743809-b8ed8def71a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80);
+}
+.footerlogo{
+  padding-bottom: 2%;
 }
